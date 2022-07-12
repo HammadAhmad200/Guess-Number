@@ -1,0 +1,369 @@
+body {
+  display: block;
+  background-color: rgb(206, 206, 206);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(245, 245, 245);
+  margin: 0 7% 0 7%;
+}
+.goback {
+  font-size: 50%;
+}
+html {
+  font-size: 100%;
+  display: block;
+}
+.headerTable {
+  height: 3rem;
+}
+header {
+  border-radius: 3rem;
+  color: rgb(240, 235, 235);
+  width: 100%;
+  background-color: rgba(6, 28, 9, 0.878);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logo {
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  width: 20%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 200%;
+  border-width: 2px;
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 3rem;
+}
+
+.sitetitle {
+  border-bottom-right-radius: 3rem;
+  border-top-right-radius: 3rem;
+  color: black;
+  width: 70%;
+  font-size: 150%;
+  background: linear-gradient(
+    90deg,
+    rgb(233, 231, 231),
+    rgba(236, 235, 238, 0.878)
+  );
+}
+.subtitle {
+  color: rgb(243, 242, 242);
+  font-size: 40%;
+  text-align: left;
+}
+.number {
+  font-size: 110%;
+  font-family: monospace;
+  text-align: center;
+}
+.numberstatus {
+  padding: 10%;
+}
+
+main {
+  align-content: center;
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: -4%;
+}
+
+.guess {
+  margin: 3%;
+  background: none;
+  text-align: center;
+  font-size: 3rem;
+  display: block;
+}
+td{
+  padding: 0.5rem;
+}
+.high {
+  color: rgb(0, 0, 0);
+}
+.low {
+  color: rgb(0, 0, 0);
+}
+.correct {
+  color: rgb(0, 0, 0);
+}
+.status {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.right {
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  margin: 5%;
+  border-radius:0.5rem;
+  background: rgba(66, 169, 46, 0.295);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  align-content: center;
+  width: 50%;
+  margin: 5%;
+  background: rgba(66, 169, 46, 0.295);
+}
+input {
+  border-radius: 1rem;
+  width: 50%;
+  height: 80%;
+  background-color: white !important;
+}
+.scorehere{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+}
+.result {
+  border-width: 3px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: 5%;
+}
+.numberstatus td{
+  background-color: white;
+}
+.logo:hover{
+  background-color: rgb(48, 156, 84);
+  
+}
+.check {
+  border-radius: 0.5rem;
+  margin: 9px;
+  background: rgba(253, 253, 253, 0.953);
+  color: rgb(46, 41, 41);
+  font-size: 130%;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+}
+.check:hover {
+  background-color: rgb(60, 175, 83);
+  color: rgb(252, 250, 250);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.restart {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 9px;
+  background-color: rgb(60, 175, 83);
+  color: rgb(255, 255, 255);
+  font-size: 130%;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+.restart:hover {
+  background: rgba(255, 255, 255, 0.953);
+  color: rgb(60, 175, 83);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.range {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+}
+.resultsection {
+  padding: 3rem 0 3rem 0;
+  align-content: center;
+  width: 40%;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  background: rgba(46, 169, 89, 0.96);
+  border-radius: 0.5rem;
+
+}
+
+.message {
+  font-size: 1.5rem;
+  background: rgb(59, 177, 102);
+  border-radius: 0.5rem;
+  padding: 1%;
+}
+.parentdiv {
+  padding-left: 15%;
+  align-content: center;
+}
+
+.parentnote {
+  align-items: center;
+  color: rgba(104, 14, 4, 0.87);
+}
+.number {
+  margin: auto;
+  width: 9rem;
+  height: 9rem;
+  font-family: monospace;
+  padding-top: 1%;
+  padding-bottom: -3px;
+  text-align: center;
+  font-size: 700%;
+  border-style: solid;
+  border-radius: 17px;
+  border-width: 1px;
+  border-color: rgb(118, 10, 10);
+  background: rgba(194, 158, 158, 0.3);
+}
+.score {
+  color: rgb(238, 238, 238);
+}
+.highscore {
+  color: rgb(247, 247, 247);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-size: 150%;
+  background-color: rgba(48, 39, 39, 0.433);
+}
+
+.modal-content {
+  background-color: #e6e6e6;
+  margin: 20% auto;
+
+  color: black;
+  padding: 20px;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: rgb(150, 44, 44);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.guess:focus {
+  border-radius: 0rem;
+}
+/* -------------------------------------- */
+@media only screen and (max-width: 768px) {
+  
+  body {
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0%;
+
+  }
+  .parentdiv{
+    padding: 0;
+    margin: 0%;
+  }
+  .result{
+    width: 100%;
+  }
+  .right,.left{
+    margin: 1rem;
+  }
+  .resultsection{
+    width: 100%;
+  }
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  .numberstatus {
+    /* border-style: solid; */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 170px;
+  }
+  input {
+    width: 50%;
+    height: 100px;
+  }
+  .parentdiv {
+    width: 100%;
+    margin: -5%;
+    align-content: center;
+  }
+  .logo {
+    cursor: pointer;
+    width: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 180%;
+  }
+  .sitetitle {
+    color: black;
+    width: 70%;
+    font-size: 150%;
+  }
+  .subtitle {
+    font-size: 40%;
+    text-align: left;
+  }
+
+  .number {
+    width: 130px;
+    height: 130px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 700%;
+    border-style: solid;
+    border-radius: 17px;
+    border-width: 1px;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+
+    color: black;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

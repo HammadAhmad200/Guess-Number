@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    
+    <title>Guess Game</title>
+  </head>
+  <body>
+    <header>
+        <table width='100%' class="headerTable" >
+        <tr>
+            <td class='logo' align="center" onclick="GoHome()">
+              #Game         
+            </td>
+            <td  class='sitetitle' align="center">
+                Guess Box Value ?
+            </td >
+        </tr>
+    </table> 
+
+    </header>
+<div class="fazool" ></div>
+<!-- <div class="overall"> -->
+
+   
+    <section class="parentnote" align="center" >
+        <p class="range">Range : 1-20</p>
+        <!-- Number to Guess -->
+        
+        <div class="number" align="center">?</div>
+        <div class="line" align="center"></div>
+     
+    </section>
+    <div class="status" align='center'>
+        <p class="label-message" display="inline">
+            <p class="message">Start Guessing....</p></p> 
+    </div>
+    <main>
+        <!-- left Area -->
+      <section class="left">
+          <!-- Input for guess Number -->
+        <input id="checked" class="guess" type="number" />
+        <!-- Button to Check Exact or not -->
+        <button id="loose" class="check">CHECK!</button>
+      </section>
+      <!-- Right Area -->
+      <section class="right" align="center">
+        <table class="numberstatus" align="center">
+            <tr>
+                <td class='high' align="center">
+                    <strong>HIGH<strong>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>              
+                <td  class='correct' align="center">
+                    <strong>CORRECT</strong>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>    
+                <td  class='low' align="center">
+                <strong>LOW</strong>
+                </td>
+            </tr>    
+                 
+            
+        </table>          
+
+      </section>
+      
+    </main>
+    <!-- Score Board -->
+    <div class="parentdiv" >
+        <div class="result" align='center'>
+        <section class="resultsection">
+           
+            <h2 class="label-score">Score : <span class="score">20</span></h2>
+
+            <h2 class="label-highscore" >High Score : <span class="highscore">0</span></h2>
+            
+        </section>
+        <br>
+        <button class="restart" >NEW GAME</button>
+    </div>
+</div> 
+<div class="lastSpace"></div>
+<!-- </div> -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content" >
+      <span class="close">&times;</span>
+      <p class="modaltext"></p>
+      <p>Your Score : <span class="scorehere"></span></p>
+      <button id="newgame" class="restart" align="center" >NEW GAME</button>
+    </div>
+    </div>
+  </div>
+<script src="script.js"> </script>
+  </body>
+</html>
